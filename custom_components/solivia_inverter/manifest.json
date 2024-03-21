@@ -1,0 +1,13 @@
+{
+  "domain": "solivia_inverter",
+  "name": "Solivia G3 Inverter",
+  "codeowners": ["@Pesc0"],
+  "dependencies": [],
+  "config_flow": true,
+  "single_config_entry": true,
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": ["pyserial==3.5"],
+  "version": "0.1.0",
+  "loggers": ["custom_components.solivia_inverter"]
+}

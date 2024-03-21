@@ -1,0 +1,13 @@
+{
+  "domain": "gavazzi_meter",
+  "name": "Gavazzi WM40-96 Meter",
+  "codeowners": ["@Pesc0"],
+  "dependencies": [],
+  "config_flow": true,
+  "single_config_entry": true,
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "0.1.0",
+  "loggers": ["custom_components.gavazzi_meter"]
+}
